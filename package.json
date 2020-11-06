@@ -1,0 +1,22 @@
+{
+  "name": "gloomhaven",
+  "version": "1.0.0",
+  "description": "Gloomhaven Campaign Keeper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BGrebner/Gloomhaven.git"
+  },
+  "keywords": [
+    "Gloomhaven"
+  ],
+  "author": "Benjamin Grebner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BGrebner/Gloomhaven/issues"
+  },
+  "homepage": "https://github.com/BGrebner/Gloomhaven#readme"
+}
