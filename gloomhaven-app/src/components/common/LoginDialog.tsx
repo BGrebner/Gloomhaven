@@ -8,6 +8,7 @@ const LoginDialog: React.FC<{open: boolean; onClose: () => void}>  = ({open, onC
         <Dialog onClose={handleClose} open={open}>
             <List>
                 <Button>Sign in with Google</Button>
+                <Button>Sign in with Facebook</Button>
             </List>
         </Dialog>
     );
