@@ -10,3 +10,11 @@ it("should contain login link for google", () => {
 
     expect(linkElement).toBeInTheDocument();
 });
+
+it("should contain login link for facebook", () => {
+    render(<LoginDialog open={true} onClose={jest.fn()} />);
+
+    const linkElement = screen.getByText(/facebook/i);
+
+    expect(linkElement).toBeInTheDocument();
+});
